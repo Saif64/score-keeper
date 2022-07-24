@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Score Keeper</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-2by1">
+                                <img src="https://play-lh.googleusercontent.com/20yLtUsrvhbvFTbwQBE5rT0ZyrN_pmXIz1aaXFELianWgYcdeXqNqwhbEZiGpAU_2vOM=w240-h480-rw"
+                                    alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Score Keeper
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"> <span id="p1Score"> 0 </span> to <span id="p2Score"> 0 </span>
+                                </h1>
+                                <p class="subtitle">use the buttons below</p>
+                                <label for="winningScore" class="label is-large is-inline">Winning score: </label>
+                                <div class="select is-rounded">
+                                    <select name="" id="winningScore">
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="8">8</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button id="p1Button" class="is-primary is-rounded button card-footer-item">+1 Player
+                                One</button>
+                            <button id="p2Button" class="is-info is-rounded button card-footer-item">+1 Player
+                                Two</button>
+                            <button id="reset" class="is-danger is-rounded button card-footer-item">Reset</button>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
